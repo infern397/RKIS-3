@@ -1,12 +1,10 @@
 package org.example.thirdLab;
 
 import org.example.thirdLab.components.ComputerComponent;
-import org.springframework.stereotype.Component;
 
 /**
  * Класс, представляющий персональный компьютер.
  */
-@Component
 public class Computer {
     private final ComputerComponent videoCard;
     private final ComputerComponent cpu;
